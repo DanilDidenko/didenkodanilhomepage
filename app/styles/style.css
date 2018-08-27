@@ -1,0 +1,47 @@
+.header {
+  width: 100px;
+  background-color: red;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; }
+
+.profile-photo {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.main-header {
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 10px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.contacts {
+  display: flex;
+  justify-content: space-around; }
+  .contacts i {
+    display: block;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s; }
+    .contacts i:hover {
+      opacity: 1; }
+
+.navtab {
+  width: 100%; }
+  .navtab .nav-tabs {
+    width: 100%; }
+  .navtab .nav-link {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s; }
+    .navtab .nav-link:hover {
+      border: 0px solid transparent;
+      opacity: 1;
+      text-decoration: underline;
+      transition: text-decoration 0.3s; }
+  .navtab .active {
+    opacity: 1; }
