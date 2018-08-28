@@ -1,0 +1,28 @@
+.post-small{
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.post-small-img{
+    width:100px;
+    min-width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 5px; 
+
+    img{
+        width: 100%;
+    }
+    
+}
+
+.post-small-header{
+    padding: 0;
+    max-height: 100px;
+  
+}
+
